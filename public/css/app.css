@@ -60,3 +60,26 @@ header .bottom-header li {
 header .bottom-header img {
   height: 80px;
 }
+
+.jumbotron {
+  height: 400px;
+  overflow: hidden;
+}
+
+.comics-list {
+  background-color: black;
+  color: white;
+}
+.comics-list .product-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.comics-list .card {
+  width: calc(16.6666666667% - 1rem);
+  padding-bottom: 1.5rem;
+}
+.comics-list .card img {
+  max-width: 100%;
+}

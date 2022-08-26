@@ -5,6 +5,15 @@
 @endsection
 
 @section('main_content')
-    <h2>test comics list</h2>
+<section class="comics-list">
+    <div class="container">
+      <div class="comics-wrapper">
+        <div class="card">
+          <img src="comic.thumb" alt="comic.series" />
+          <h4>Fumetto</h4>
+        </div>
+      </div>
+    </div>
+  </section>
 @endsection
 
