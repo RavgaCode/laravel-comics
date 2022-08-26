@@ -19,8 +19,6 @@ header {
     }
     .bottom-header {
         background-color: white;
-        color: $main-text-color;
-        font-weight: 800;
 
         .container {
             display: flex;
@@ -31,7 +29,11 @@ header {
             padding: 0 0.8rem;
             line-height: 150px;
             display: block;
-            font-size: 1.5rem;
+            a {
+                font-size: 1.5rem;
+                color: $main-text-color;
+                font-weight: 800;
+            }
         }
         img {
             height: 80px;

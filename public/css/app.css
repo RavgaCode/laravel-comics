@@ -44,8 +44,6 @@ header .top-header li {
 }
 header .bottom-header {
   background-color: white;
-  color: #8e9594;
-  font-weight: 800;
 }
 header .bottom-header .container {
   display: flex;
@@ -56,7 +54,11 @@ header .bottom-header li {
   padding: 0 0.8rem;
   line-height: 150px;
   display: block;
+}
+header .bottom-header li a {
   font-size: 1.5rem;
+  color: #8e9594;
+  font-weight: 800;
 }
 header .bottom-header img {
   height: 80px;
@@ -106,4 +108,82 @@ ul li {
 ul a {
   color: white;
   padding: 0 0.5rem;
+}
+
+.top-footer {
+  background-image: url("/img/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.link-columns {
+  display: flex;
+  justify-content: space-between;
+}
+.link-columns h2 {
+  color: white;
+  padding-inline: 2rem;
+}
+.link-columns a {
+  color: #8e9594;
+}
+
+.link-col {
+  display: flex;
+  margin: 1rem 0;
+}
+.link-col div {
+  padding-right: 3rem;
+}
+.link-col ul {
+  flex-direction: column;
+  align-items: flex-start;
+  height: auto;
+}
+.link-col ul li {
+  padding-bottom: 0.3rem;
+  margin: 0;
+}
+
+.img-col {
+  position: relative;
+  height: 400px;
+}
+.img-col img {
+  display: block;
+  height: 100%;
+  width: 600px;
+  overflow: hidden;
+  -o-object-fit: none;
+     object-fit: none;
+}
+
+.bot-footer {
+  background-color: #303030;
+  height: 150px;
+}
+.bot-footer .footer-columns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.bot-footer .footer-btn {
+  color: white;
+  font-weight: 800;
+  padding: 1rem;
+  border: 2px solid #0282f9;
+}
+.bot-footer .right-col ul {
+  display: flex;
+  align-items: center;
+}
+.bot-footer .right-col ul li {
+  padding-left: 0.5rem;
+}
+.bot-footer .follow-link {
+  color: #0282f9;
+  font-weight: 800;
+  font-size: 1.5rem;
 }
