@@ -1,3 +1,4 @@
+// Comics list
 .comics-list {
     background-color: black;
     color: white;
@@ -15,5 +16,28 @@
                 max-width: 100%;
             }
         }
+    }
+}
+// Blue band
+.blue-band {
+    background-color: $brand-color;
+    height: 150px;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+    img {
+        height: 50px;
+    }
+    li {
+        display: flex;
+        padding: 0 1rem;
+    }
+    a {
+        color: white;
+        padding: 0 0.5rem;
     }
 }

@@ -37,6 +37,7 @@ header .top-header a {
 header .top-header ul {
   justify-content: flex-end;
   padding-block: 0.5rem;
+  align-items: center;
 }
 header .top-header li {
   padding-left: 1rem;
@@ -82,4 +83,27 @@ header .bottom-header img {
 }
 .comics-list .comics-wrapper .card img {
   max-width: 100%;
+}
+
+.blue-band {
+  background-color: #0282f9;
+  height: 150px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+ul img {
+  height: 50px;
+}
+ul li {
+  display: flex;
+  padding: 0 1rem;
+}
+ul a {
+  color: white;
+  padding: 0 0.5rem;
 }
