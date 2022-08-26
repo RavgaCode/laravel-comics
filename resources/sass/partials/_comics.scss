@@ -1,18 +1,19 @@
 .comics-list {
     background-color: black;
     color: white;
-    .product-wrapper {
+    .comics-wrapper {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         padding: 2rem;
-    }
-    .card {
-        width: calc(100% / 6 - 1rem);
-        padding-bottom: 1.5rem;
 
-        img {
-            max-width: 100%;
+        .card {
+            width: calc(100% / 6 - 1rem);
+            padding-bottom: 1.5rem;
+
+            img {
+                max-width: 100%;
+            }
         }
     }
 }
