@@ -1,0 +1,39 @@
+header {
+    height: 150px;
+    margin-bottom: 5px;
+
+    .top-header {
+        background-color: $brand-color;
+
+        a {
+            color: white;
+        }
+        ul {
+            justify-content: flex-end;
+            padding-block: 0.5rem;
+        }
+        li {
+            padding-left: 1rem;
+        }
+    }
+    .bottom-header {
+        background-color: white;
+        color: $main-text-color;
+        font-weight: 800;
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        li {
+            padding: 0 0.8rem;
+            line-height: 150px;
+            display: block;
+            font-size: 1.5rem;
+        }
+        img {
+            height: 80px;
+        }
+    }
+}
