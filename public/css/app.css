@@ -216,3 +216,21 @@ ul a {
   left: 0;
   right: 0;
 }
+
+.description-section {
+  padding-block: 2rem;
+}
+
+.description-columns {
+  display: flex;
+}
+.description-columns .left-col {
+  width: 70%;
+}
+.description-columns .left-col .comics-price {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgreen;
+  color: white;
+  padding: 0.8rem;
+}

@@ -18,6 +18,35 @@
             </div>
         </div>
     </div>
+    {{-- Comic Description & Price --}}
+    <div class="description-section">
+        <div class="container">
+            <div class="description-columns">
+                {{-- Description Col --}}
+                <div class="left-col">
+                    <h1>{{ $current_comic['title'] }}</h1>
+                    <div class="comics-price">
+                        {{-- Price Info --}}
+                        <div class="price">
+                            <span>U.S. Price: {{ $current_comic['price'] }}</span>
+                            <span>Available</span>
+                        </div>
+                        {{-- Availability --}}
+                        <div class="availability">
+                            <span>Check availability</span>
+                        </div>
+                    </div>
+                    {{-- Description --}}
+                    <p>{{ $current_comic['description'] }}</p>
+                </div>
+                {{-- Adv Col --}}
+                <div class="right-col">
+                    <img src="{{ asset('images/superman-apply.jpg') }}" alt="advertise img">
+                </div>
+            </div>
+        </div>
+    </div>
+
   </section>
   {{-- Blue band --}}
   <section class="blue-band">

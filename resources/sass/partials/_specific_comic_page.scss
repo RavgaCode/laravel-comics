@@ -29,3 +29,22 @@
         }
     }
 }
+// Description Section
+.description-section {
+    padding-block: 2rem;
+}
+.description-columns {
+    display: flex;
+
+    .left-col {
+        width: 70%;
+
+        .comics-price {
+            display: flex;
+            justify-content: space-between;
+            background-color: lightgreen;
+            color: white;
+            padding: 0.8rem;
+        }
+    }
+}
