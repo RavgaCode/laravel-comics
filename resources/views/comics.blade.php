@@ -46,7 +46,67 @@
             </div>
         </div>
     </div>
-
+    {{-- TALENT & SPEC SECTION --}}
+    <div class="talent-section">
+        <div class="container">
+            <div class="talent-columns">
+                {{-- Talent Col --}}
+                <div class="left-col">
+                    <h3>Talent</h3>
+                    {{-- Artists list--}}
+                    <div class="submenu-columns">
+                        <div class="submenu-name">Art by:</div>
+                        <div class="submenu-list">
+                            @foreach ($current_comic['artists'] as $artist)
+                            <a href="#">
+                                {{ $artist }}{{ !$loop->last ? ',' : '' }}
+                            </a>
+                            @endforeach
+                        </div>
+                    </div>
+                    {{-- Writers list --}}
+                    <div class="submenu-columns">
+                        <div class="submenu-name">Written by:</div>
+                        <div class="submenu-list">
+                            @foreach ($current_comic['writers'] as $writer)
+                            <a href="#">
+                                {{ $writer }}{{ !$loop->last ? ',' : '' }}
+                            </a>
+                            @endforeach
+                        </div>
+                    </div>
+                </div>
+                {{-- Spec Col --}}
+                <div class="right-col">
+                    <h3>Specs</h3>
+                    <div class="submenu-columns">
+                        <div class="submenu-name">Series:</div>
+                        <div class="submenu-info">
+                            <span>
+                                {{ $current_comic['series'] }}
+                            </span>
+                        </div>
+                    </div>
+                    <div class="submenu-columns">
+                        <div class="submenu-name">U.S. Price:</div>
+                        <div class="submenu-info">
+                            <span>
+                                {{ $current_comic['price'] }}
+                            </span>
+                        </div>
+                    </div>
+                    <div class="submenu-columns">
+                        <div class="submenu-name">On Sale Date:</div>
+                        <div class="submenu-info">
+                            <span>
+                                {{ $current_comic['sale_date'] }}
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
   </section>
   {{-- Blue band --}}
   <section class="blue-band">

@@ -234,3 +234,25 @@ ul a {
   color: white;
   padding: 0.8rem;
 }
+
+.talent-section {
+  background-color: lightgrey;
+  padding-block: 2rem;
+}
+
+.talent-columns {
+  display: flex;
+}
+.talent-columns .left-col {
+  width: 50%;
+}
+.talent-columns .submenu-columns {
+  display: flex;
+  padding-block: 0.3rem;
+}
+.talent-columns .submenu-columns .submenu-name {
+  width: 20%;
+}
+.talent-columns .right-col {
+  width: 50%;
+}

@@ -48,3 +48,26 @@
         }
     }
 }
+// Talent & Spec Section
+.talent-section {
+    background-color: lightgrey;
+    padding-block: 2rem;
+}
+.talent-columns {
+    display: flex;
+
+    .left-col {
+        width: 50%;
+    }
+    .submenu-columns {
+        display: flex;
+        padding-block: 0.3rem;
+
+        .submenu-name {
+            width: 20%;
+        }
+    }
+    .right-col {
+        width: 50%;
+    }
+}
