@@ -5,18 +5,18 @@
 @endsection
 
 @section('main_content')
-{{-- Comics list --}}
-<section class="comics-list">
-    <div class="container">
-      <div class="comics-wrapper">
-        {{-- Start printing comics --}}
-        @foreach ($comics_array as $comic)
-        <div class="card">
-            <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}" />
-            <h4>{{$comic['title']}}</h4>
-          </div>
-        @endforeach
-      </div>
+{{-- STARTING SPECIFIC COMIC SECTION--}}
+<section id="comics">
+    {{-- Blue band comic cover img --}}
+    <div class="top-cover-band">
+        <div class="container">
+            <div class="cover-container">
+                <img src="{{ $current_comic['thumb'] }}" alt="{{ $current_comic['title'] }}">
+
+                <span>Comic book</span>
+                <span>View gallery</span>
+            </div>
+        </div>
     </div>
   </section>
   {{-- Blue band --}}

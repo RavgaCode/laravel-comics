@@ -46,5 +46,5 @@ Route::get('/comics/{id}', function ($id) {
         'current_comic' => $current_comic
     ];
 
-    return view('comic', $data);
-})->name('comic');
+    return view('comics', $data);
+})->name('comics');
