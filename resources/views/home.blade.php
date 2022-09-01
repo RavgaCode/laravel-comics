@@ -12,8 +12,10 @@
         {{-- Start printing comics --}}
         @foreach ($comics_array as $comic)
         <div class="card">
-            <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}" />
-            <h4>{{$comic['title']}}</h4>
+            <a href="{{route('comics', ['id'=>$comic['id']])}}">
+                <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}" />
+                <h4>{{$comic['title']}}</h4>
+            </a>
           </div>
         @endforeach
       </div>

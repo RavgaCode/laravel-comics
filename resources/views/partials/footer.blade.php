@@ -98,7 +98,7 @@
               </div>
               <!-- IMG COL -->
               <div class="img-col">
-                <img src="./img/dc-logo-bg.png" alt="DC Logo" />
+                <img src="{{asset('img/dc-logo-bg.png')}}" alt="DC Logo" />
               </div>
             </div>
     </div>

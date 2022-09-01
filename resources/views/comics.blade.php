@@ -41,7 +41,7 @@
                 </div>
                 {{-- Adv Col --}}
                 <div class="right-col">
-                    <img src="{{ asset('images/superman-apply.jpg') }}" alt="advertise img">
+                    <img src="{{ asset('img/superman-apply.jpg') }}" alt="advertise img">
                 </div>
             </div>
         </div>
@@ -114,31 +114,31 @@
             <ul>
                 <li>
                     <a href="#">
-                        <img src="img/buy-comics-digital-comics.png" alt="logo digital comics">
+                        <img src="{{asset('img/buy-comics-digital-comics.png')}}" alt="logo digital comics">
                         <span>Digital comics</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="img/buy-comics-merchandise.png" alt="logo DC merchandise">
+                        <img src="{{asset('img/buy-comics-merchandise.png')}}" alt="logo DC merchandise">
                         <span>DC Merchandise</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="img/buy-comics-subscriptions.png" alt="logo subscriptions">
+                        <img src="{{asset('img/buy-comics-subscriptions.png')}}" alt="logo subscriptions">
                         <span>Subscription</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="img/buy-comics-shop-locator.png" alt="logo DC shop">
+                        <img src="{{asset('img/buy-comics-shop-locator.png')}}" alt="logo DC shop">
                         <span>Comics Shop Locator</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="img/buy-dc-power-visa.svg" alt="logo power visa">
+                        <img src="{{asset('img/buy-dc-power-visa.svg')}}" alt="logo power visa">
                         <span>DC Power Visa</span>
                     </a>
                 </li>

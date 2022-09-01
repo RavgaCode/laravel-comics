@@ -20,7 +20,7 @@ Route::get('/', function () {
         'comics_array' => $comics_array,
     ];
 
-    return view('comics', $data);
+    
 
     return view('home', $data);
 })-> name ('home');
@@ -45,6 +45,5 @@ Route::get('/comics/{id}', function ($id) {
     $data = [
         'current_comic' => $current_comic
     ];
-
     return view('comics', $data);
 })->name('comics');
